@@ -1,0 +1,19 @@
+ul {
+    .item {
+        width: 240px;
+        height: 40px;
+        margin-top: 15px;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        background-color: deepskyblue;
+        border-radius: 8px;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+    li.dragging {
+        background: transparent;
+        border: 1px dashed #666;
+    }
+}
